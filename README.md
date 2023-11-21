@@ -1,4 +1,4 @@
-# Sentiment Analysis Project
+# Infotegrity
 
 ## Overview
 
