@@ -28,9 +28,3 @@ This sentiment analysis project utilizes various Natural Language Processing (NL
 - **src:** Source code for the sentiment analysis project.
 - **results:** Output and results obtained from the analysis.
 
-## How to Use
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/sentiment-analysis-project.git
