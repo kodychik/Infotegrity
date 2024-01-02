@@ -1,30 +1,36 @@
 # Infotegrity
 
-## Overview
+Infotegrity is a comprehensive platform designed to deliver in-depth analysis of online articles. Using advanced sentiment analysis models, Infotegrity helps in understanding the underlying tone and biases in news articles and other online content.
 
-This sentiment analysis project utilizes various Natural Language Processing (NLP) algorithms and open-source technologies to analyze news articles. The project includes the integration of popular libraries such as spaCy, TextBlob, NLTK, Transformers, PyTorch, NumPy, and Pandas. The goal is to provide insightful analysis, including sentiment classification (negative, neutral, positive), polarity, subjectivity, and word counts for the most frequently used words.
+## Getting Started
 
-## Technologies Used
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-- **spaCy:** Used for advanced natural language processing tasks.
-- **TextBlob:** Employed for simple and effective sentiment analysis.
-- **NLTK:** Integrated for various NLP tasks, including tokenization and stopwords removal.
-- **Transformers (Hugging Face):** Utilized pre-trained models for advanced sentiment analysis.
-- **PyTorch:** Employed for deep learning-based sentiment analysis tasks.
-- **NumPy:** Used for efficient numerical operations.
-- **Pandas:** Employed for data manipulation and analysis.
+### Prerequisites
 
-## Features
+What things you need to install the software:
 
-- **Sentiment Classification:** Negative, neutral, and positive sentiment labels.
-- **Polarity:** Quantification of the emotional tone of the text.
-- **Subjectivity:** Measurement of the subjectiveness of the text.
-- **Word Counts:** Analysis of the most frequently used words.
+- Node.js and npm
+- Python 3
+- Flask
 
-## Project Structure
+### Installing
 
-- **data:** Contains the dataset used for training and testing.
-- **notebooks:** Jupyter notebooks for exploratory data analysis and model training.
-- **src:** Source code for the sentiment analysis project.
-- **results:** Output and results obtained from the analysis.
+A step-by-step series of examples that tell you how to get a development environment running:
 
+   ```bash
+   git clone [url-to-your-repo]
+   npm install
+   npm start
+   cd backend
+   python3 flaskApp.py
+   ```
+### Using Infotegrity
+To use Infotegrity:
+
+- Open your browser and navigate to localhost:3000.
+- Find an online article you wish to analyze.
+- Copy the article's URL and paste it into the analyze bar on Infotegrity.
+- Press the "Analyze" button.
+
+Explore the analysis results provided by the platform.
